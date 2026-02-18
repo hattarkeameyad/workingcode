@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(cookieParser());
 const allowedOrigins = [
-  'http://localhost:3000',
+  'http://localhost:3000','d3s9dbcunjn6lr.cloudfront.net',
   'https://frontendbackendinvps.s3-website-us-east-1.amazonaws.com',
   'http://frontendbackendinvps.s3-website-us-east-1.amazonaws.com',
 ];
